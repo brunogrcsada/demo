@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 
-const Counter = (props) => {
+const Counter = () => {
     let [ counter, setCounter ] = useState(0);
     // Value of a variable -> Variable holding a value
     // Set a value to the variable -> Function
-
-    let { text, other } = props;
 
     return (
         <button
